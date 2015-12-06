@@ -49,6 +49,7 @@ TARGET_KERNEL_CONFIG := fugu_defconfig
 TARGET_KERNEL_SOURCE := kernel/asus/fugu
 TARGET_KERNEL_ARCH := x86_64
 BOARD_KERNEL_IMAGE_NAME := bzImage
+TARGET_KERNEL_HAVE_EXFAT := true
 TARGET_KERNEL_HAVE_NTFS := true
 
 # Kernel cmdline

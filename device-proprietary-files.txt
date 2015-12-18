@@ -197,7 +197,6 @@ lib/hw/hdmi_cec.fugu.so
 lib/hw/keystore.moorefield.so
 lib/libatv_audio.so
 lib/libatv_uinputbridge.so
-lib/libaudiopolicymanager.so
 lib/libDecoderVP9Hybrid.so
 lib/libdx_cc7.so
 lib/libgabi++-mfx.so
@@ -215,7 +214,7 @@ lib/libmixvbp.so
 lib/libmixvbp_vc1.so
 lib/libmixvbp_vp8.so
 lib/libOMXVideoDecoderAVCSecure.so
-lib/libremotecontrolservice.so
+-lib/libremotecontrolservice.so
 lib/libsepdrm_cc54.so
 lib/libstlport-mfx.so
 -priv-app/AtvRemoteService/AtvRemoteService.apk

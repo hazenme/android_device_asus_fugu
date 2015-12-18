@@ -118,11 +118,11 @@ ifeq ($(TARGET_PRODUCT),fugu)
 LOCAL_C_INCLUDES += \
     vendor/google_athome/services/RemoteControlService/include
 
-LOCAL_SHARED_LIBRARIES += \
-    libremotecontrolservice
-
 LOCAL_CFLAGS += -DREMOTE_CONTROL_INTERFACE
 endif
+
+LOCAL_SHARED_LIBRARIES += \
+    libremotecontrolservice
 
 LOCAL_MODULE := libaudiopolicymanager
 LOCAL_MODULE_TAGS := optional
